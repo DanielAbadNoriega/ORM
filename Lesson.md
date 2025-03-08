@@ -14,6 +14,52 @@ class Alumno {
 
 ## 2. Contexto de la base de datos
 
+### **1️⃣ Abrir la Consola de Administrador de Paquetes (Package Manager Console)**
+**Este método es más fácil si usas Visual Studio en modo gráfico.**
+
+✅ **Pasos:**
+1. Abre **Visual Studio (Microsoft)**.
+2. Ve al menú **"Herramientas"** (`Tools`).
+3. Selecciona **"Administrador de paquetes NuGet"** → **"Consola del Administrador de paquetes"**.
+4. **En la consola**, escribe:
+   ```powershell
+   Install-Package Microsoft.EntityFrameworkCore.Sqlite
+   ```
+   📌 **Si usas SQL Server, instala:**
+   ```powershell
+   Install-Package Microsoft.EntityFrameworkCore.SqlServer
+   ```
+5. Espera a que se complete la instalación.
+
+---
+
+### **2️⃣ Opción 2: Abrir la Terminal de .NET CLI en Visual Studio**
+**Si prefieres usar comandos `dotnet`, usa la terminal integrada de Visual Studio.**
+
+✅ **Pasos:**
+1. **Abre Visual Studio** y carga tu proyecto.
+2. **Abre la terminal** presionando:
+   - **`Ctrl` + `Ñ`** (En versiones recientes de Visual Studio)
+   - O ve al menú **"Ver"** → **"Terminal"**.
+3. **En la terminal**, instala los paquetes necesarios con estos comandos:
+   ```bash
+   dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   ```
+   📌 **Para SQL Server:**
+   ```bash
+   dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   ```
+4. Espera a que se complete la instalación.
+
+---
+
+#### **3️⃣ Verificar que la Instalación Funcione**
+**Después de instalar los paquetes, ejecuta en la terminal:**
+```bash
+dotnet build
+```
+
+
 ```C#
 using Microsoft.EntityFrameworkCore;
 
