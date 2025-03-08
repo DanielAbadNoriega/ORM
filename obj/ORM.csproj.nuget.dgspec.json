@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dabad\\Documents\\workspace\\Practice\\C#\\LINQ\\ORM\\ORM.csproj": {}
+    "/Users/dabad/Desktop/Workspace/C#/Lesson 38/ORM/ORM.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dabad\\Documents\\workspace\\Practice\\C#\\LINQ\\ORM\\ORM.csproj": {
+    "/Users/dabad/Desktop/Workspace/C#/Lesson 38/ORM/ORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dabad\\Documents\\workspace\\Practice\\C#\\LINQ\\ORM\\ORM.csproj",
+        "projectUniqueName": "/Users/dabad/Desktop/Workspace/C#/Lesson 38/ORM/ORM.csproj",
         "projectName": "ORM",
-        "projectPath": "c:\\Users\\dabad\\Documents\\workspace\\Practice\\C#\\LINQ\\ORM\\ORM.csproj",
-        "packagesPath": "C:\\Users\\dabad\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dabad\\Documents\\workspace\\Practice\\C#\\LINQ\\ORM\\obj\\",
+        "projectPath": "/Users/dabad/Desktop/Workspace/C#/Lesson 38/ORM/ORM.csproj",
+        "packagesPath": "/Users/dabad/.nuget/packages/",
+        "outputPath": "/Users/dabad/Desktop/Workspace/C#/Lesson 38/ORM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dabad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/dabad/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
